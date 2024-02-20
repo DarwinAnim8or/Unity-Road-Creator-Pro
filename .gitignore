@@ -19,3 +19,4 @@ Assets/SceneSettings.lighting.meta
 Assembly-CSharp.csproj
 Assembly-CSharp-Editor.csproj
 Road Creator Pro.sln
+*.vsidx

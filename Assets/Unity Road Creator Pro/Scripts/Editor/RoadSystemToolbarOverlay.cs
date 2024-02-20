@@ -1,5 +1,6 @@
 #if UNITY_EDITOR
 using System.Collections.Generic;
+using System.IO;
 using UnityEditor;
 using UnityEditor.Overlays;
 using UnityEngine;
@@ -158,7 +159,13 @@ namespace RoadCreatorPro
 
         private static void LoadSingleTexture(string name)
         {
-            textures[name] = Resources.Load("Textures/Ui/" + name) as Texture;
+            string path = "Textures/Ui/";
+            if (!EditorGUIUtility.isProSkin)
+            {
+                path = "Textures/Ui_inverted/"; //for light mode users
+            }
+
+            textures[name] = Resources.Load(path + name) as Texture;
         }
 
         private static Texture GetTexture(string name, bool active)
