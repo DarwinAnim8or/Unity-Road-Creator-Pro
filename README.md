@@ -7,3 +7,9 @@ More info at https://mcrafterzz.itch.io/road-creator-pro.
 ![Road](https://img.itch.zone/aW1hZ2UvNTY2MzgwLzI5NzgwNDUucG5n/original/vW87dT.png)
 
 ## This is a continuation containing small fixes and QoL-improvements.
+Noteworthy changes:
+* Support for light mode
+* Included presets from older versions, namely the flower pot sample.
+
+## Getting started
+Please see [the wiki for instructions on how to use this asset](https://github.com/DarwinAnim8or/Unity-Road-Creator-Pro/wiki/1.1-Getting-Started)
