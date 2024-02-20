@@ -13,3 +13,4 @@ Noteworthy changes:
 
 ## Getting started
 Please see [the wiki for instructions on how to use this asset](https://github.com/DarwinAnim8or/Unity-Road-Creator-Pro/wiki/1.1-Getting-Started)
+This project is using `Unity 2021.3.15f1 LTS`; though the project may work in older versions too. 
