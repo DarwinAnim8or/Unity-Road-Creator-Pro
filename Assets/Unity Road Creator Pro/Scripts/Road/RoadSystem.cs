@@ -27,6 +27,14 @@ namespace RoadCreatorPro
             currentlyCreatedRoad = null;
             addedPoint = null;
         }
+
+        //[InspectorButton("LoadFromCSV")]
+        public bool loadFromCSV;
+
+        public void LoadFromCSV()
+        {
+
+        }
     }
 }
 #endif

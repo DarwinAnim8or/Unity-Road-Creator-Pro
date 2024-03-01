@@ -76,6 +76,7 @@
     <Compile Include="Assets\Unity Road Creator Pro\Scripts\Settings\RoadCreatorSettings.cs" />
     <Compile Include="Assets\Unity Road Creator Pro\Scripts\Intersection\IntersectionCrosswalk.cs" />
     <Compile Include="Assets\Unity Road Creator Pro\Scripts\Intersection\IntersectionMainRoad.cs" />
+    <Compile Include="Assets\Unity Road Creator Pro\Scripts\Road\InspectorButtonAttribute.cs" />
     <Compile Include="Assets\Unity Road Creator Pro\Scripts\Intersection\IntersectionConnection.cs" />
     <Compile Include="Assets\Unity Road Creator Pro\Scripts\PointSystemCreator.cs" />
     <Compile Include="Assets\Unity Road Creator Pro\Scripts\MeshUtility.cs" />

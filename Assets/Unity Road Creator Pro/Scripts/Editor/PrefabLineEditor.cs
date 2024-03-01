@@ -80,6 +80,9 @@ namespace RoadCreatorPro
 
             EditorGUILayout.EndHorizontal();
 
+            //For ease of use, I'm also including it here:
+            Utility.DisplayCurveEditor(serializedObject.FindProperty("offsetCurve"), "Offset", prefabLine.settings);
+
             serializedObject.FindProperty("detailLevel").floatValue = Mathf.Clamp(EditorGUILayout.FloatField(new GUIContent("Accuracy", "Determines how accurately the prefabs are spaced out."), serializedObject.FindProperty("detailLevel").floatValue), 0.01f, 20);
             serializedObject.FindProperty("fillGap").boolValue = EditorGUILayout.Toggle("Fill Gap", serializedObject.FindProperty("fillGap").boolValue);
 

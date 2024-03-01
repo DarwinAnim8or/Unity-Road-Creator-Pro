@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F547DF19-9064-9782-AE97-E0086DDA928D}|Assembly-CSharp.csproj|c:\\users\\vq8104\\documents\\github\\unity-road-creator-pro\\assets\\unity road creator pro\\scripts\\road\\inspectorbuttonattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F547DF19-9064-9782-AE97-E0086DDA928D}|Assembly-CSharp.csproj|solutionrelative:assets\\unity road creator pro\\scripts\\road\\inspectorbuttonattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F547DF19-9064-9782-AE97-E0086DDA928D}|Assembly-CSharp.csproj|C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\assets\\unity road creator pro\\scripts\\road\\roadsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F547DF19-9064-9782-AE97-E0086DDA928D}|Assembly-CSharp.csproj|solutionrelative:assets\\unity road creator pro\\scripts\\road\\roadsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE79F754-D5EA-2810-DA25-298AD23D0049}|Assembly-CSharp-Editor.csproj|C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\assets\\editor\\inspectorbuttonattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE79F754-D5EA-2810-DA25-298AD23D0049}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\inspectorbuttonattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE79F754-D5EA-2810-DA25-298AD23D0049}|Assembly-CSharp-Editor.csproj|C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\assets\\unity road creator pro\\scripts\\editor\\roadsystemtoolbaroverlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE79F754-D5EA-2810-DA25-298AD23D0049}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\unity road creator pro\\scripts\\editor\\roadsystemtoolbaroverlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InspectorButtonAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\Assets\\Unity Road Creator Pro\\Scripts\\Road\\InspectorButtonAttribute.cs",
+              "RelativeDocumentMoniker": "Assets\\Unity Road Creator Pro\\Scripts\\Road\\InspectorButtonAttribute.cs",
+              "ToolTip": "C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\Assets\\Unity Road Creator Pro\\Scripts\\Road\\InspectorButtonAttribute.cs",
+              "RelativeToolTip": "Assets\\Unity Road Creator Pro\\Scripts\\Road\\InspectorButtonAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:55:06.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoadSystem.cs",
+              "DocumentMoniker": "C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\Assets\\Unity Road Creator Pro\\Scripts\\Road\\RoadSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Unity Road Creator Pro\\Scripts\\Road\\RoadSystem.cs",
+              "ToolTip": "C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\Assets\\Unity Road Creator Pro\\Scripts\\Road\\RoadSystem.cs",
+              "RelativeToolTip": "Assets\\Unity Road Creator Pro\\Scripts\\Road\\RoadSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:52:02.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InspectorButtonAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\Assets\\Editor\\InspectorButtonAttribute.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\InspectorButtonAttribute.cs",
+              "ToolTip": "C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\Assets\\Editor\\InspectorButtonAttribute.cs",
+              "RelativeToolTip": "Assets\\Editor\\InspectorButtonAttribute.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwBwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:51:24.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoadSystemToolbarOverlay.cs",
+              "DocumentMoniker": "C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\Assets\\Unity Road Creator Pro\\Scripts\\Editor\\RoadSystemToolbarOverlay.cs",
+              "RelativeDocumentMoniker": "Assets\\Unity Road Creator Pro\\Scripts\\Editor\\RoadSystemToolbarOverlay.cs",
+              "ToolTip": "C:\\Users\\VQ8104\\Documents\\GitHub\\Unity-Road-Creator-Pro\\Assets\\Unity Road Creator Pro\\Scripts\\Editor\\RoadSystemToolbarOverlay.cs",
+              "RelativeToolTip": "Assets\\Unity Road Creator Pro\\Scripts\\Editor\\RoadSystemToolbarOverlay.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAqwKQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:14:04.488Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
