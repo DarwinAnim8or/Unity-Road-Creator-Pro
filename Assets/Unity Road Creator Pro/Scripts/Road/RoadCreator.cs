@@ -812,6 +812,8 @@ namespace RoadCreatorPro
         {
             for (int i = 0; i < prefabLines.Count; i++)
             {
+                if (!prefabLines[i]) continue;
+
                 PrefabLineCreator prefabLine = prefabLines[i];
                 int startIndex = prefabLine.startIndex;
                 int endIndex = prefabLine.endIndex;
@@ -952,7 +954,7 @@ namespace RoadCreatorPro
 
             for (int i = 0; i < prefabLines.Count; i++)
             {
-                if (prefabLines[i].wholeRoad)
+                if (prefabLines[i] && prefabLines[i].wholeRoad)
                 {
                     prefabLines[i].startIndex = 0;
                     prefabLines[i].endIndex = transform.GetChild(0).childCount - 2;
