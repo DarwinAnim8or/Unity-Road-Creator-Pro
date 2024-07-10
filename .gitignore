@@ -20,5 +20,4 @@ Assembly-CSharp.csproj
 Assembly-CSharp-Editor.csproj
 Road Creator Pro.sln
 *.vsidx
-/.vs
-.vs/Unity-Road-Creator-Pro/v17/.suo
+.vs
