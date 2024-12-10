@@ -13,6 +13,7 @@ Noteworthy changes:
 * No longer updates prefab lines until you press "Update" (this caused the editor to hang)
 * Added UV mapping to the concrete barrier
 * Added a simple tunnel model
+* Correctly resizes Navmesh obstacles if present
 
 ## Getting started
 Please see [the wiki for instructions on how to use this asset](https://github.com/DarwinAnim8or/Unity-Road-Creator-Pro/wiki/1.1-Getting-Started)
