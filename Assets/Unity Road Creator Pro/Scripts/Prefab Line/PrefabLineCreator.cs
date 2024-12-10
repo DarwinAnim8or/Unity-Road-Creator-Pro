@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace RoadCreatorPro
 {
@@ -176,6 +177,18 @@ namespace RoadCreatorPro
                         mesh.vertices = vertexPositions;
                         mesh.RecalculateNormals();
                         mesh.RecalculateBounds();
+
+                        NavMeshObstacle navMeshObstacle = placedPrefab.GetComponent<NavMeshObstacle>();
+                        if (navMeshObstacle) {
+                            navMeshObstacle.center = mesh.bounds.center;
+
+                            if (navMeshObstacle.shape == NavMeshObstacleShape.Box)
+                                navMeshObstacle.size = mesh.bounds.size;
+                            else {
+                                navMeshObstacle.radius = (mesh.bounds.extents.x + mesh.bounds.extents.y + mesh.bounds.extents.z) / 3.0f;
+                                navMeshObstacle.height = mesh.bounds.size.y;
+                            }
+                        }
 
                         placedPrefab.GetComponent<MeshFilter>().sharedMesh = mesh;
                         if (placedPrefab.GetComponent<MeshCollider>() != null)
