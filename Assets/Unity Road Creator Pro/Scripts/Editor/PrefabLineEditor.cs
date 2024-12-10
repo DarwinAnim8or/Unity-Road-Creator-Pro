@@ -150,7 +150,7 @@ namespace RoadCreatorPro
             if (EditorGUI.EndChangeCheck())
             {
                 serializedObject.ApplyModifiedPropertiesWithoutUndo();
-                prefabLine.Regenerate(false);
+                //prefabLine.Regenerate(false);
             }
 
             GUILayout.Space(20);
