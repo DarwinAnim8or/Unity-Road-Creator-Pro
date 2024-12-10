@@ -547,7 +547,10 @@ namespace RoadCreatorPro
             string[] options = new string[road.prefabLines.Count];
             for (int i = 0; i < road.prefabLines.Count; i++)
             {
-                options[i] = (i + 1).ToString();
+                if (road.prefabLines[i] != null) 
+                    options[i] = (i + 1).ToString() + " - " + road.prefabLines[i].mainPrefab.gameObject.name;
+                else
+                    options[i] = (i + 1).ToString();
             }
 
             if (road.transform.GetChild(0).childCount > 1)
