@@ -10,7 +10,10 @@ More info at https://mcrafterzz.itch.io/road-creator-pro.
 Noteworthy changes:
 * Support for light mode
 * Included presets from older versions, namely the flower pot sample.
+* No longer updates prefab lines until you press "Update" (this caused the editor to hang)
+* Added UV mapping to the concrete barrier
+* Added a simple tunnel model
 
 ## Getting started
 Please see [the wiki for instructions on how to use this asset](https://github.com/DarwinAnim8or/Unity-Road-Creator-Pro/wiki/1.1-Getting-Started)
-This project is using `Unity 2021.3.15f1 LTS`; though the project may work in older versions too. 
+This project is using `Unity 2021.3.15f1 LTS`; though the project may work in older versions too. However, only current LTS versions are tested. 
