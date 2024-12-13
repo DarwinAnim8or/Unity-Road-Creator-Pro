@@ -200,7 +200,10 @@ namespace RoadCreatorPro
                 string[] options = new string[road.lanes.Count];
                 for (int i = 0; i < road.lanes.Count; i++)
                 {
-                    options[i] = (i + 1).ToString();
+                    if (road.lanes[i].materials[0] != null) 
+                        options[i] = (i + 1).ToString() + " - " + road.lanes[i].materials[0].name;
+                    else
+                        options[i] = (i + 1).ToString();
                 }
 
                 int tab = road.lanesTab;
